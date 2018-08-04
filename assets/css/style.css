@@ -1,0 +1,228 @@
+html {
+    background-image: url("../images/tri-bg.png");
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+p {
+    line-height: 1.5em;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+    font-size: 28px;
+}
+
+h4 {
+    font-weight: normal;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+/* Main container for navbar/header */
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #cccccc;
+    height: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#name-logo {
+    background-color: #4aaaa5;
+    color: #fff;
+    float: left;
+    padding: 20px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-wrap {
+    color: #777777;    
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+#nav-link-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+/* Next 4 style the nav links+dividers */
+
+.navbar-links {
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    float: right;
+    border: 1px solid white;
+    color: #777777;
+    
+    
+}
+
+.navbar-links:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+.navbar-links:hover {
+    background-color: #4aaaa5;
+    color: white;
+    border: 1px solid #777777;
+}
+
+.navbar-divider {
+    float: right;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* sets the width of the main body */
+
+#main-content {
+    background-color: white;
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    border: 1px solid #dddddd;
+    
+}
+
+/* header for the main content area */
+
+#content-header {
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+
+
+hr {
+    background-color: #cccccc;
+    width: 920px;
+    margin-bottom: 20px;
+    
+}
+/* about page profile pic */
+
+#nate-photo {
+    float: left;
+    margin: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+/* small input box */
+.sm-txt-box {
+    margin: 0px 0px 20px 20px;
+
+}
+/* large text  input */
+#messagebox {
+    margin: 0px 0px 20px 20px;
+    width: 920px;
+
+}
+
+/* submit button for contact page */
+
+#contact-sub {
+    margin: 0px 20px 20px 20px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px 16px;
+}
+
+#contact-sub:hover {
+    border: 1px solid black;
+    padding: 7px 15px;
+}
+
+/* images on portfolio page */
+.folio-img {
+    margin: 20px;
+    border: 1px solid #cccccc;
+}
+
+footer {
+    background-color: #666666;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    padding-bottom: 2px;
+    padding-top: 38px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+
+
+}
+
+
+#push {
+    height: 50px;
+    clear: both;
+}
+
+#foot-wrap {
+    min-height: 100%;
+    margin-bottom: -50px;
+    clear: both;
+}
+
+
+.folio-cont {
+    position: relative;
+    width: 350px;
+    height: 225px;
+    margin: 20px;
+    float: left;
+
+    
+}
+
+
+/*  */
+.folio-lbl {
+    position: absolute;
+    width: 327px;
+    color: white;
+    background-color: #4aaaa5;
+    z-index: 1;
+    bottom: 5px;
+    padding: 12.5px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+    font-size: 20px;
+}
+
+#clearer {
+    padding: 10px;
+    clear: both;
+}
