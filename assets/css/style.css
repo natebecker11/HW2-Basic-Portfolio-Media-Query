@@ -242,8 +242,59 @@ footer {
 @media screen and (max-width: 980px) {
 
     #nav-link-wrapper {
-        width: 765px;
+        width: 100%;
+        max-height: 80px;
     }
+
+    #nav-wrap {
+        max-height: 80px;
+    }
+    nav {
+        max-height: 80px;
+    }
+
+    .navbar-links {
+        font-size: 16px;
+        padding: 0 5px 0 5px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .navbar-links:first-of-type {
+        margin-right: 50px;
+    }
+
+    .navbar-divider {
+        font-size: 16px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    h1 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    #name-logo {
+        margin-left: 10%;
+        height: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 1em;
+        padding-bottom: 0;
+    }
+    #main-content {
+        width: 620px;
+        margin-left: 10%; 
+    }
+    hr {
+        width: 580px;
+    }
+
 
 
 
@@ -255,6 +306,20 @@ footer {
 
     #nav-link-wrapper {
         width: 100%;
+    }
+
+    .navbar-links, .navbar-divider {
+        font-size: 14px;
+    }
+
+    #main-content {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+
+    #name-logo {
+        margin-left: 2.5%;
     }
 
 }
@@ -289,6 +354,8 @@ footer {
 
     #main-content {
         max-width: 95%;
+        margin: 0 auto;
+        margin-bottom: 70px;
     }
 
     .navbar-links, .navbar-divider {
