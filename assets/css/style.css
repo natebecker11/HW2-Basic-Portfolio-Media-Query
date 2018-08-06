@@ -1,5 +1,5 @@
 html {
-    background-image: url("../images/tri-bg.png");
+    background-image: url("../images/sun-bg.png");
     background-color: #cccccc;
     margin: 0;
     padding: 0;
@@ -62,6 +62,14 @@ nav {
     width: 960px;
     margin: 0 auto;
 }
+
+
+/* Mobile link bar, hidden on non-mobile */
+
+#mobile-links {
+    display: none;
+}
+
 /* Next 4 style the nav links+dividers */
 
 .navbar-links {
@@ -129,6 +137,8 @@ hr {
 #nate-photo {
     float: left;
     margin: 20px;
+    width: 300px;
+    height: 300px;
 }
 
 footer {
@@ -225,4 +235,137 @@ footer {
 #clearer {
     padding: 10px;
     clear: both;
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+    #nav-link-wrapper {
+        width: 765px;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #nav-link-wrapper {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 640px) {
+    #name-logo {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        position: absolute;
+        top: 0;
+        text-align: center;
+        max-height: 50px;
+        padding: 10px 0 10px 0;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    #foot-wrap {
+        margin-top: 60px;
+        
+    }
+
+    #main-content {
+        max-width: 95%;
+    }
+
+    .navbar-links, .navbar-divider {
+        display: none;
+    
+    }
+
+    hr {
+        max-width: 92%;
+        
+    }
+
+    #mobile-links {
+        display: block;
+        width: 100%;
+        background-color: white;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+        padding: 10px 0 10px 0;
+        border-bottom: 1px solid #cccccc;
+        
+               
+      
+    }
+
+    #mob-link-wrap {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .mob-link {
+        display: inline;
+        padding: 10px;
+        text-decoration: none;
+        color: #777777;       
+    }
+
+    .mob-link:visited {
+        text-decoration: none;
+        color: #777777;
+    }
+
+    .mob-link:hover, .mob-link:focus {
+        text-decoration: none;
+        color: white;
+        background-color: #4aaaa5;
+    }
+
+    .mob-divider {
+        display: inline;
+        color: #777777;
+    }
+
+    p {
+        float: none;
+        margin: 4%;
+    }
+
+    #nate-photo {
+        float: none;
+        width: 92%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+       
+    }
+
+    #content-header {
+        text-align: left;
+        margin-left: 4%;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
