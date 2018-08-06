@@ -148,6 +148,8 @@ footer {
 /* small input box */
 .sm-txt-box {
     margin: 0px 0px 20px 20px;
+    width: 920px;
+    line-height: 1.5em;
 
 }
 /* large text  input */
@@ -315,6 +317,15 @@ footer {
         left: 0px;
     }
 
+    .sm-txt-box {
+        width: 580px;
+        
+
+    }
+
+    #messagebox {
+        width: 580px;
+    }
     
 
 
@@ -331,6 +342,10 @@ footer {
         font-size: 14px;
     }
 
+    hr {
+        width: 94%;
+    }
+
     #main-content {
         width: 95%;
         margin: 0 auto;
@@ -340,6 +355,17 @@ footer {
     #name-logo {
         margin-left: 2.5%;
     }
+
+    .sm-txt-box {
+        width: 94%;
+     
+
+    }
+
+    #messagebox {
+        width: 94%;
+    }
+    
 
 }
 
@@ -478,5 +504,16 @@ footer {
         width: 100%;
 
     }
+
+    .sm-txt-box {
+        width: 92%;
+     
+
+    }
+
+    #messagebox {
+        width: 92%;
+    }
+    
 
 }
