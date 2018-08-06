@@ -296,7 +296,26 @@ footer {
     }
 
 
+    .folio-cont {
+        width: 270px;
+        height: auto;
+    }
 
+    .folio-img {
+        width: 270px;
+        height: auto;
+        margin: 0;
+    }
+
+    .folio-lbl {
+        width: 272px;
+        margin: 0 auto;
+        padding: 10px 0 10px 0;
+        bottom: 15px;
+        left: 0px;
+    }
+
+    
 
 
 }
@@ -365,6 +384,7 @@ footer {
 
     hr {
         max-width: 92%;
+        margin-bottom: 30px;
         
     }
 
@@ -433,6 +453,30 @@ footer {
         margin-right: 0;
         padding-left: 0;
         padding-right: 0;
+    }
+
+
+    .folio-cont {
+        float: none;
+        /* margin: 0 auto; */
+        width: 92%;
+        height: auto;
+        border: 1px solid darkgray;
+        
+        
+    }
+
+    .folio-img {
+        float: none;
+        width: 100%;
+        height: auto;
+        border: none;
+        
+    }
+
+    .folio-lbl {
+        width: 100%;
+
     }
 
 }
